@@ -1,0 +1,31 @@
+<InfrastructureInfo>
+   <Metadata name="newgraph" lastUpdate="2019-05-20T16:24:37.66757689Z"></Metadata>
+   <Spec>
+      <Node ip="192.168.122.171"></Node>
+      <Node ip="192.168.122.93"></Node>
+      <Service name="a">
+         <SecurityComponent name="firewall"></SecurityComponent>
+         <Port internal="8080" protocol="TCP" exposed="31965"></Port>
+         <AmbassadorPort internal="9000" protocol="TCP" exposed="32380"></AmbassadorPort>
+         <Instance ip="172.20.1.38" uid="nginx-847f6987c9-kgzhr"></Instance>
+      </Service>
+      <Service name="b">
+         <SecurityComponent name="firewall"></SecurityComponent>
+         <Port internal="8080" protocol="TCP" exposed="32227"></Port>
+         <AmbassadorPort internal="9000" protocol="TCP" exposed="30020"></AmbassadorPort>
+         <Instance ip="172.20.1.39" uid="nodejs-6c89c9c877-7wkjf"></Instance>
+      </Service>
+      <Service name="c">
+         <SecurityComponent name="firewall"></SecurityComponent>
+         <Port internal="8080" protocol="TCP" exposed="31316"></Port>
+         <AmbassadorPort internal="9000" protocol="TCP" exposed="30019"></AmbassadorPort>
+         <Instance ip="172.20.1.37" uid="apache-6594767cd5-5wmz8"></Instance>
+      </Service>
+       <Service name="d">
+         <SecurityComponent name="firewall"></SecurityComponent>
+         <Port internal="8080" protocol="TCP" exposed="31116"></Port>
+         <AmbassadorPort internal="9000" protocol="TCP" exposed="31019"></AmbassadorPort>
+         <Instance ip="172.20.1.36" uid="apache2-6594767cd5-5wmz8"></Instance>
+      </Service>
+   </Spec>
+</InfrastructureInfo>

@@ -1,0 +1,14 @@
+# Since this is not relevant to kubernetes, there is no need to write this in a
+# syntax similar to that of kubernetes' one. But it should help keep things more readable.
+kind: Graph
+metadata:
+  # This should be unique throughout the marketplace
+  name: name-of-the-graph
+spec:
+  policies:
+      - from: a
+        to: b
+        action: forward
+      - from: d
+        to: b
+        action: drop
