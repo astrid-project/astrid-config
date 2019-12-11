@@ -1,4 +1,4 @@
-
+AUTHOR Jalolliddin Yusupov [@yujboss](https://github.com/yujboss)
 
 ##### astrid-config is a fork of the VEREFOO project (VErified REFinement and Optimized Orchestration)   designed to provide an automatic way to allocate packet filters – the most common and traditional firewall technology – in a Service Graph defined by the service designer and an auto-configuration technique to create firewall rules with respect to the specified security requirements.
 
